@@ -1,15 +1,25 @@
 public class Main{
     public static void main(String[] args) {
         
-        Stack myStack = new Stack(4);
+        //STACK
+        // Stack myStack = new Stack(4);
 
         // myStack.getTop();
         // myStack.getHeight();
 
-        myStack.push(5);
-        myStack.pop();
+        // myStack.push(5);
+        // myStack.pop();
 
-        myStack.printStack();
+        // myStack.printStack();
+
+        //Queue
+        Queue myQueue = new Queue(0);
+        
+        myQueue.getFirst();
+        myQueue.getLast();
+        myQueue.getLength();
+
+        myQueue.printQueue();
 
     }
 }
