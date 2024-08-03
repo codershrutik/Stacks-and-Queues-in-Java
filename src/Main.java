@@ -20,10 +20,15 @@ public class Main{
         // myQueue.getLength();
 
         myQueue.enqueue(1);
-        myQueue.enqueue(2);
-        myQueue.enqueue(3);
+        // myQueue.enqueue(2);
+        // myQueue.enqueue(3);
 
-        myQueue.printQueue();
+        
+        // myQueue.printQueue();
+
+        System.out.println(myQueue.dequeue().value);
+        System.out.println(myQueue.dequeue().value);
+        System.out.println(myQueue.dequeue());
 
     }
 }
