@@ -15,9 +15,13 @@ public class Main{
         //Queue
         Queue myQueue = new Queue(0);
         
-        myQueue.getFirst();
-        myQueue.getLast();
-        myQueue.getLength();
+        // myQueue.getFirst();
+        // myQueue.getLast();
+        // myQueue.getLength();
+
+        myQueue.enqueue(1);
+        myQueue.enqueue(2);
+        myQueue.enqueue(3);
 
         myQueue.printQueue();
 
